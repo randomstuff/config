@@ -1,0 +1,6 @@
+#!/bin/sh
+# Run SDL2 games with a suitable environment (gamepad configuration).
+
+# Get this file from https://github.com/gabomdq/SDL_GameControllerDB:
+export SDL_GAMECONTROLLERCONFIG="$(cat ~/.gamecontrollerdb.txt)"
+exec "$@"

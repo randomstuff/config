@@ -1,0 +1,16 @@
+# ~/.gitignore
+
+# Backup files:
+*~
+
+# Thumbnails
+Thumbs.db
+.Trashes
+.DS_Store
+
+# Native compilation:
+*.o
+a.out
+
+# Python:
+*.pyc

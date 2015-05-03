@@ -1,0 +1,4 @@
+# ~/.tigrc
+
+# Key bindings
+bind generic <Ctrl-g> !git checkout %(commit)
