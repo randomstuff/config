@@ -1,0 +1,423 @@
+# ~/.XCompose
+
+# include "/usr/share/X11/locale/en_US.UTF-8/Compose"
+include "%L"
+
+# ##### Punctuation
+
+<Multi_key> <bar> <question> : "‽"
+<Multi_key> <question> <exclam> : "⁈"
+<Multi_key> <exclam> <question> : "⁉"
+<Multi_key> <i> <r> <o> <n> <y> : "⸮"
+
+<Multi_key> <asterisk> <asterisk> <asterisk> : "⁂"
+
+<Multi_key> <d> <a> <g> <g> <e> <r> : "†"
+<Multi_key> <d> <d> <a> <g> <g> <e> <r> : "‡"
+<Multi_key> <b> <u> <l> <l> <e> <t> : "•"
+
+# ##### Technical
+
+<Multi_key> <T> <E> <L> : "℡"
+<Multi_key> <F> <A> <X> : "℻"
+<Multi_key> <R> <X> : "℞"
+<Multi_key> <i> <n> <f> <o> : "ℹ"
+
+<Multi_key> <d> <i> <a> <m> <e> <t> <e> <r> : "⌀"
+<Multi_key> <r> <e> <t> <u> <r> <n> : "⏎"
+<Multi_key> <e> <j> <e> <c> <t> : "⏏"
+<Multi_key> <c> <o> <m> <m> <a> <n> <d> : "⌘"
+<Multi_key> <e> <r> <a> <s> <e> : "⌫"
+<Multi_key> <d> <e> <l> <e> <t> <e> : "⌦"
+
+# ##### Musical
+
+# ♩♪♫♬
+
+# ##### Dingats
+
+<Multi_key> <f> <e> <m> <a> <l> <e> : "♀"
+<Multi_key> <m> <a> <l> <e> : "♂"
+# ⚢⚣⚥⚤⚦⚧⚨⚩☿
+
+<Multi_key> <e> <a> <r> <t> <h> : "♁"
+
+
+# ☦☧☩☪☫☬
+<Multi_key> <s> <k> <u> <l> <l> : "☠"
+<Multi_key> <a> <n> <k> <h> : "☥"
+<Multi_key> <y> <i> <n> <y> <a> <n> <g> : "☯"
+<Multi_key> <p> <e> <a> <c> <e> : "☮"
+<Multi_key> <c> <o> <m> <m> <u> <n> <i> <s> <m> : "☭"
+<Multi_key> <r> <a> <d> <i> <o> <a> <c> <t> <i> <v> <e> : "☢"
+<Multi_key> <l> <o> <r> <r> <a> <i> <n> <e> : "☨"
+<Multi_key> <c> <a> <d> <u> <c> <e> <u> <s> : "☤"
+<Multi_key> <d> <b> <e> <n> <d> : "☡"
+<Multi_key> <b> <i> <o> <h> <a> <z> <a> <r> <d> : "☣"
+
+<Multi_key> <w> <a> <r> <n> <i> <n> <g> : "⚠" U26A0
+
+<Multi_key> <bracketleft> <bracketright> : "☐"
+<Multi_key> <bracketleft> <v> <bracketright> : "☑"
+<Multi_key> <bracketleft> <x> <bracketright> : "☒"
+
+<Multi_key> <b> <o> <x> : "☐"
+<Multi_key> <c> <h> <e> <c> <k> <b> <o> <x> : "☑"
+<Multi_key> <x> <b> <o> <x> : "☒"
+
+# ##### Emojis
+
+<Multi_key> <colon> <parenright> : "☺" U263a
+<Multi_key> <colon> <parenleft> : "☹" U2639
+
+<Multi_key> <O> <K> : "👌" U1F44C
+<Multi_key> <l> <i> <k> <e> : "👍" U1F44D
+<Multi_key> <d> <i> <s> <l> <i> <k> <e> : "👎" U1F44E
+<Multi_key> <k> <i> <s> <s> : "💋" U1F48B
+
+# ##### Math
+
+# ‰‱
+
+<Multi_key> <braketleft> <plus> <brackeright> : "⊞"
+<Multi_key> <braketleft> <minus> <brackeright> : "⊟"
+<Multi_key> <braketleft> <x> <brackeright> : "⊠"
+<Multi_key> <braketleft> <period> <brackeright> : "⊡"
+
+<Multi_key> <minus> <plus>  : "∓"
+<Multi_key> <plus> <minus> : "±"
+<Multi_key> <r> <i> <n> <g> : "∘"
+<Multi_key> <degree> <degree> : "∘"
+<Multi_key> <a> <s> <t> <e> <r> <i> <s> <k> : "∗"
+
+<Multi_key> <p> <r> <o> <p> <t> <o> : "∝"
+
+<Multi_key> <asciitilde> <asciitilde> : "≈"
+<Multi_key> <D> <equal> : "≜"
+<Multi_key> <d> <e> <f> <equal> : "≝"
+<Multi_key> <question> <equal> : "≟"
+<Multi_key> <m> <equal> : "≞"
+<Multi_key> <asterisk> <equal> : "≛"
+<Multi_key> <v> <equal> : "≚"
+<Multi_key> <degree> <equal> : "≗"
+<Multi_key> <dead_circumflex> <equal> : "≙"
+<Multi_key> <colon> <equal> : "≔"
+
+<Multi_key> <s> <u> <m> :  : "∑"
+<Multi_key> <p> <r> <o> <d> :  : "∏"
+
+<Multi_key> <v> <e> <e> : "∨"
+<Multi_key> <b> <i> <g> <v> <e> <e> : "V"
+<Multi_key> <w> <e> <d> <g> <e> : "∧"
+<Multi_key> <b> <i> <g> <w> <e> <d> <g> <e> : "⋀"
+
+<Multi_key> <s> <q> <r> <t> : "√"
+<Multi_key>  <c> <b> <r> <t> : "∛"
+<Multi_key>  <q> <d> <r> <t> : "∜"
+
+<Multi_key> <f> <o> <r> <a> <l> <l> : "∀" #forall
+<Multi_key> <e> <x> <i> <s> <t> <s> : "∃" # exists
+<Multi_key> <n> <e> <x> <i> <s> <t> <s> : "∄" # not exists
+
+<Multi_key> <i> <n> <t> : "∫"
+<Multi_key> <i> <i> <n> <t> : "∬"
+<Multi_key> <i> <i> <i> <n> <t> : "∭"
+<Multi_key> <o> <i> <n> <t> : "∮"
+<Multi_key> <o> <i> <i> <n> <t> : "∯"
+<Multi_key> <i> <i> <i> <i> <n> <t> : "∰"
+# ∱∲∳
+
+<Multi_key> <p> <a> <r> <t> <i> <a> <l> : "∂"
+<Multi_key> <n> <a> <b> <l> <a> : "∇"
+
+<Multi_key> <o> <plus> : "⊕"
+<Multi_key> <o> <minus> : "⊖"
+<Multi_key> <o> <multiply> : "⊗"
+<Multi_key> <o> <slash> : "⊘"
+<Multi_key> <o> <period> : "⊙"
+<Multi_key> <o> <degree> : "⊚"
+<Multi_key> <o> <asterisk> : "⊛"
+<Multi_key> <o> <equal> : "⊜"
+<Multi_key> <o> <macron> : "⊝"
+
+<Multi_key> <o> <p> <l> <u> <s> : "⊕"
+<Multi_key> <o> <m> <i> <n> <u> <s> : "⊖"
+<Multi_key> <o> <t> <i> <m> <e> <s> : "⊗"
+<Multi_key> <o> <s> <l> <a> <s> <h> : "⊘"
+<Multi_key> <o> <d> <o> <t> : "⊙"
+
+# ∴∵∷∶
+# ⊢⊣
+
+<Multi_key> <s> <u> <b> <s> <e> <t> : "⊂"
+<Multi_key> <s> <u> <p> <s> <e> <t> : "⊃"
+# <Multi_key> <s> <u> <b> <s> <e> <t> <e> <q> : "⊆"
+# <Multi_key> <s> <u> <p> <s> <e> <t> <e> <q>  : "⊇"
+# ⊄⊅⊈⊉
+<Multi_key> <e> <m> <p> <t> <y> <s> <e> <t> : "∅"
+
+<Multi_key> <c> <u> <p> : "∪"
+<Multi_key> <b> <i> <g> <c> <u> <p> : "⋃"
+<Multi_key> <c> <a> <p> : "∩"
+<Multi_key> <b> <i> <g> <c> <a> <p> : "⋂"
+<Multi_key> <s> <e> <t> <m> <i> <n> <u> <s> : "∖"
+<Multi_key> <i> <s> <i> <n> : "∈" # "in" is too common (infinity, ...)
+<Multi_key> <n> <o> <t> <i> <n> : "∉"
+# ∋∌
+
+<Multi_key> <i> <n> <f> <t> <y> : "∞"
+<Multi_key> <i> <n> <f> <i> <n> <i> <t> <y> : "∞"
+
+
+# ##### Numbers, fractions
+
+<Multi_key> <1> <slash> <2> : "½"
+<Multi_key> <1> <slash> <3> : "⅓"
+<Multi_key> <2> <slash> <3> : "⅔"
+<Multi_key> <1> <slash> <5> : "⅕"
+<Multi_key> <2> <slash> <5> : "⅖"
+<Multi_key> <3> <slash> <5> : "⅗"
+<Multi_key> <4> <slash> <5> : "⅘"
+<Multi_key> <1> <slash> <6> : "⅙"
+<Multi_key> <5> <slash> <6> : "⅚"
+<Multi_key> <1> <slash> <8> : "⅛"
+<Multi_key> <3> <slash> <8> : "⅜"
+<Multi_key> <5> <slash> <8> : "⅝"
+<Multi_key> <7> <slash> <8> : "⅞"
+<Multi_key> <1> <slash> <space> : "⅟"
+
+<dead_circumflex> <0> : "⁰"
+<dead_circumflex> <1> : "ⁱ"
+<dead_circumflex> <2> : "⁲"
+<dead_circumflex> <3> : "⁳"
+<dead_circumflex> <4> : "⁴"
+<dead_circumflex> <5> : "⁵"
+<dead_circumflex> <6> : "⁶"
+<dead_circumflex> <7> : "⁷"
+<dead_circumflex> <8> : "⁸"
+<dead_circumflex> <9> : "⁹"
+<dead_circumflex> <plus> : "⁺"
+<dead_circumflex> <minus> : "⁻"
+<dead_circumflex> <dead_tile> : "⁼"
+<dead_circumflex> <parenleft> : "⁽"
+<dead_circumflex> <parenright> : "⁾"
+<dead_circumflex> <n> : "ⁿ"
+
+<Multi_key> <parenleft> <1> <parenright> : "⑴"
+<Multi_key> <parenleft> <2> <parenright> : "⑵"
+<Multi_key> <parenleft> <3> <parenright> : "⑶"
+<Multi_key> <parenleft> <4> <parenright> : "⑷"
+<Multi_key> <parenleft> <5> <parenright> : "⑸"
+<Multi_key> <parenleft> <6> <parenright> : "⑹"
+<Multi_key> <parenleft> <7> <parenright> : "⑺"
+<Multi_key> <parenleft> <8> <parenright> : "⑻"
+<Multi_key> <parenleft> <9> <parenright> : "⑼"
+<Multi_key> <parenleft> <1> <0> <parenright> : "⑽"
+<Multi_key> <parenleft> <1> <1> <parenright> : "⑾"
+<Multi_key> <parenleft> <1> <2> <parenright> : "⑿"
+<Multi_key> <parenleft> <1> <3> <parenright> : "⒀"
+<Multi_key> <parenleft> <1> <4> <parenright> : "⒁"
+<Multi_key> <parenleft> <1> <5> <parenright> : "⒂"
+<Multi_key> <parenleft> <1> <6> <parenright> : "⒃"
+<Multi_key> <parenleft> <1> <7> <parenright> : "⒄"
+<Multi_key> <parenleft> <1> <8> <parenright> : "⒅"
+<Multi_key> <parenleft> <1> <9> <parenright> : "⒆"
+<Multi_key> <parenleft> <2> <0> <parenright> : "⒇"
+# ⒜⒝⒞⒟⒠⒡⒢⒣⒤⒥⒦⒧⒨⒩⒪⒫⒬⒭⒮⒯⒰⒱⒲⒳⒴⒵
+
+# ₀₁₂₃₄₅₆₈₇₉₊₋₌₍₎
+
+# ##### Greek Letters
+
+<Multi_key> <A> <l> <p> <h> <a> : "Α" Greek_ALPHA
+<Multi_key> <a> <l> <p> <h> <a> : "α" Greek_alpha
+<Multi_key> <B> <e> <t> <a> : "Β" Greek_BETA
+<Multi_key> <b> <e> <t> <a> : "β" Greek_beta
+<Multi_key> <G> <a> <m> <m> <a> : "Γ" Greek_GAMMA
+<Multi_key> <g> <a> <m> <m> <a> : "γ" Greek_gamma
+<Multi_key> <D> <e> <l> <t> <a> : "Δ" Greek_DELTA
+<Multi_key> <d> <e> <l> <t> <a> : "δ" Greek_delta
+<Multi_key> <E> <p> <s> <i> <l> <o> <n> : "Ε" Greek_EPSILON
+<Multi_key> <e> <p> <s> <i> <l> <o> <n> : "ε" Greek_epsilon
+<Multi_key> <Z> <e> <t> <a> : "Ζ" Greek_ZETA
+<Multi_key> <z> <r> <t> <a> : "ζ" Greek_zeta
+<Multi_key> <E> <t> <a> : "Η" Greek_ETA
+<Multi_key> <e> <t> <a> : "η" Greek_eta
+<Multi_key> <T> <h> <e> <t> <a> : "Θ" Greek_THETA
+<Multi_key> <t> <h> <e> <t> <a> : "θ" Greek_theta
+<Multi_key> <I> <o> <t> <a> : "Ι" Greek_IOTA
+<Multi_key> <o> <o> <t> <a> : "ι" Greek_iota
+<Multi_key> <K> <a> <p> <p> <a> : "Κ" Greek_KAPPA
+<Multi_key> <k> <a> <p> <p> <a> : "κ" Greek_kappa
+<Multi_key> <L> <a> <m> <b> <d> <a> : "Λ" Greek_LAMBDA
+<Multi_key> <l> <a> <m> <b> <d> <a> : "λ" Greek_lambda
+<Multi_key> <M> <u> : "Μ" Greek_MU
+<Multi_key> <m> <u> : "μ" Greek_mu
+<Multi_key> <N> <u> : "Ν" Greek_NU
+<Multi_key> <n> <u> : "ν" Greek_nu
+<Multi_key> <X> <i> : "Ξ" Greek_XI
+<Multi_key> <x> <i> : "ξ" Greek_xi
+<Multi_key> <O> <m> <i> <c> <r> <o> <n> : "Ο" Greek_OMICRON
+<Multi_key> <o> <m> <i> <c> <r> <o> <n> : "ο" Greek_omicron
+<Multi_key> <P> <i> : "Π" Greek_PI
+<Multi_key> <p> <i> : "π" Greek_pi
+<Multi_key> <R> <h> <o> : "Ρ" Greek_RHO
+<Multi_key> <r> <h> <o> : "ρ" Greek_rho
+<Multi_key> <S> <i> <g> <m> <a> : "Σ" Greek_SIGMA
+<Multi_key> <s> <i> <g> <m> <a> : "σ" Greek_sigma
+<Multi_key> <T> <a> <u> : "Τ" Greek_TAU
+<Multi_key> <t> <a> <u> : "τ" Greek_tau
+<Multi_key> <U> <p> <s> <i> <l> <o> <n> : "Υ" Greek_UPSILON
+<Multi_key> <U> <p> <s> <i> <l> <o> <n> : "υ" Greek_upsilon
+<Multi_key> <P> <h> <i> : "Φ" Greek_PHI
+<Multi_key> <p> <h> <i> : "φ" Greek_phi
+<Multi_key> <C> <h> <i> : "Χ" Greek_CHI
+<Multi_key> <c> <h> <i> : "χ" Greek_chi
+<Multi_key> <P> <s> <i> : "Ψ" Greek_PSI
+<Multi_key> <p> <s> <i> : "ψ" Greek_psi
+<Multi_key> <O> <m> <e> <g> <a> : "Ω" Greek_OMEGA
+<Multi_key> <o> <m> <e> <g> <a> : "ω" Greek_omega
+
+# ##### Script
+# http://www.w3.org/2003/entities/iso9573-1991doc/isomscr.html
+
+<Multi_key> <dollar> <A> : U1d49c
+<Multi_key> <dollar> <B> : U0212c
+<Multi_key> <dollar> <C> : U1d49e
+<Multi_key> <dollar> <D> : U1d49f
+<Multi_key> <dollar> <E> : U02130
+<Multi_key> <dollar> <F> : U02131
+<Multi_key> <dollar> <G> : U1d4a2
+<Multi_key> <dollar> <H> : U0210b
+<Multi_key> <dollar> <I> : U02110
+<Multi_key> <dollar> <J> : U1d4a5
+<Multi_key> <dollar> <K> : U1d4a6
+<Multi_key> <dollar> <L> : U02112
+<Multi_key> <dollar> <M> : U02133
+<Multi_key> <dollar> <N> : U1d4a9
+<Multi_key> <dollar> <O> : U1d4aa
+<Multi_key> <dollar> <P> : U1d4ab
+<Multi_key> <dollar> <Q> : U1d4ac
+<Multi_key> <dollar> <R> : U0211b
+<Multi_key> <dollar> <S> : U1d4ae
+<Multi_key> <dollar> <T> : U1d4af
+<Multi_key> <dollar> <U> : U1d4b0
+<Multi_key> <dollar> <V> : U1d4b1
+<Multi_key> <dollar> <W> : U1d4b2
+<Multi_key> <dollar> <X> : U1d4b3
+<Multi_key> <dollar> <Y> : U1d4b4
+<Multi_key> <dollar> <Z> : U1d4b5
+
+<Multi_key> <dollar> <a> : U1d4b6
+<Multi_key> <dollar> <b> : U1d4b7
+<Multi_key> <dollar> <c> : U1d4b8
+<Multi_key> <dollar> <d> : U1d4b9
+<Multi_key> <dollar> <e> : U212f
+<Multi_key> <dollar> <f> : U1d4bb
+<Multi_key> <dollar> <g> : U0210a
+<Multi_key> <dollar> <h> : U1d4bd
+<Multi_key> <dollar> <i> : U1d4be
+<Multi_key> <dollar> <j> : U1d4bf
+<Multi_key> <dollar> <k> : U1d4c0
+<Multi_key> <dollar> <l> : U1d4c1
+<Multi_key> <dollar> <m> : U1d4c2
+<Multi_key> <dollar> <n> : U1d4c3
+<Multi_key> <dollar> <o> : U1d4c4
+<Multi_key> <dollar> <p> : U1d4c5
+<Multi_key> <dollar> <q> : U1d4c6
+<Multi_key> <dollar> <r> : U1d4c7
+<Multi_key> <dollar> <s> : U1d4c8
+<Multi_key> <dollar> <t> : U1d4c9
+<Multi_key> <dollar> <u> : U1d4ca
+<Multi_key> <dollar> <v> : U1d4cb
+<Multi_key> <dollar> <w> : U1d4cc
+<Multi_key> <dollar> <x> : U1d4cd
+<Multi_key> <dollar> <y> : U1d4ce
+<Multi_key> <dollar> <z> : U1d4cf
+
+# ##### "mopf"
+# http://www.w3.org/2003/entities/iso9573-1991doc/isomopf.html
+
+<Multi_key> <bar> <A> : U1d538 "𝔸"
+<Multi_key> <bar> <B> : U1d539 "𝔹"
+<Multi_key> <bar> <C> : U02102 "ℂ"
+<Multi_key> <bar> <D> : U1d53b "𝔻"
+<Multi_key> <bar> <E> : U1d53c "𝔼"
+<Multi_key> <bar> <F> : U1d53d "𝔽"
+<Multi_key> <bar> <G> : U1d53e "𝔾"
+<Multi_key> <bar> <H> : U0210d "ℍ"
+<Multi_key> <bar> <I> : U1d540 "𝕀"
+<Multi_key> <bar> <J> : U1d541 "𝕁"
+<Multi_key> <bar> <K> : U1d542 "𝕂"
+<Multi_key> <bar> <L> : U1d543 "𝕃"
+<Multi_key> <bar> <M> : U1d544 "𝕄"
+<Multi_key> <bar> <N> : U02115 "ℕ"
+<Multi_key> <bar> <O> : U1d546 "𝕆"
+<Multi_key> <bar> <P> : U02119 "ℙ"
+<Multi_key> <bar> <Q> : U0211a "ℚ"
+<Multi_key> <bar> <R> : U0211d "ℝ"
+<Multi_key> <bar> <S> : U1d54a "𝕊"
+<Multi_key> <bar> <T> : U1d54b "𝕋"
+<Multi_key> <bar> <U> : U1d54c "𝕌"
+<Multi_key> <bar> <V> : U1d54d "𝕍"
+<Multi_key> <bar> <W> : U1d54e "𝕎"
+<Multi_key> <bar> <X> : U1d54f "𝕏"
+<Multi_key> <bar> <Y> : U1d550 "𝕐"
+<Multi_key> <bar> <Z> : U02124 "ℤ"
+
+# ##### Frakture
+# http://www.w3.org/2003/entities/iso9573-1991doc/isomfrk.html
+
+# <Multi_key> <sterling> <A> :
+# <Multi_key> <sterling> <B> :
+# <Multi_key> <sterling> <C> :
+# <Multi_key> <sterling> <D> :
+# <Multi_key> <sterling> <E> :
+# <Multi_key> <sterling> <F> :
+# <Multi_key> <sterling> <G> :
+# <Multi_key> <sterling> <H> :
+# <Multi_key> <sterling> <I> :
+# <Multi_key> <sterling> <J> :
+# <Multi_key> <sterling> <K> :
+# <Multi_key> <sterling> <L> :
+# <Multi_key> <sterling> <M> :
+# <Multi_key> <sterling> <N> :
+# <Multi_key> <sterling> <O> :
+# <Multi_key> <sterling> <P> :
+# <Multi_key> <sterling> <Q> :
+# <Multi_key> <sterling> <R> :
+# <Multi_key> <sterling> <S> :
+# <Multi_key> <sterling> <T> :
+# <Multi_key> <sterling> <U> :
+# <Multi_key> <sterling> <V> :
+# <Multi_key> <sterling> <W> :
+# <Multi_key> <sterling> <X> :
+# <Multi_key> <sterling> <Y> :
+# <Multi_key> <sterling> <Z> :
+
+# <Multi_key> <sterling> <a> :
+# <Multi_key> <sterling> <b> :
+# <Multi_key> <sterling> <c> :
+# <Multi_key> <sterling> <d> :
+# <Multi_key> <sterling> <e> :
+# <Multi_key> <sterling> <f> :
+# <Multi_key> <sterling> <g> :
+# <Multi_key> <sterling> <h> :
+# <Multi_key> <sterling> <i> :
+# <Multi_key> <sterling> <j> :
+# <Multi_key> <sterling> <k> :
+# <Multi_key> <sterling> <l> :
+# <Multi_key> <sterling> <m> :
+# <Multi_key> <sterling> <n> :
+# <Multi_key> <sterling> <o> :
+# <Multi_key> <sterling> <p> :
+# <Multi_key> <sterling> <q> :
+# <Multi_key> <sterling> <r> :
+# <Multi_key> <sterling> <s> :
+# <Multi_key> <sterling> <t> :
+# <Multi_key> <sterling> <u> :
+# <Multi_key> <sterling> <v> :
+# <Multi_key> <sterling> <w> :
+# <Multi_key> <sterling> <x> :
+# <Multi_key> <sterling> <y> :
+# <Multi_key> <sterling> <z> :
