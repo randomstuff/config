@@ -1,0 +1,24 @@
+# ~/.atom/keymap.cson: keybindings (for Linux+French keyboard)
+'body':
+  'cmd-p': 'core:move-up'
+  'cmd-n': 'core:move-down'
+  'cmd-b': 'core:move-left'
+  'cmd-f': 'core:move-right'
+  'cmd-up': 'core:move-to-top'
+  'cmd-down': 'core:move-to-bottom'
+  'cmd-shift-p': 'core:select-up'
+  'cmd-shift-n': 'core:select-down'
+  'cmd-shift-b': 'core:select-left'
+  'cmd-shift-f': 'core:select-right'
+  'cmd-shift-up': 'core:move-to-top'
+'atom-text-editor':
+  'cmd-a': 'editor:move-to-first-character-of-line'
+  'cmd-e': 'editor:move-to-end-of-screen-line'
+  'cmd-t': 'editor:transpose'
+  'cmd-m': 'bracket-matcher:go-to-matching-bracket'
+  'cmd-alt-m': 'bracket-matcher:select-inside-brackets'
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-(': 'editor:fold-current-row'
+  'cmd-)': 'editor:unfold-current-row'
+  'cmd-alt-(': 'editor:fold-all'
+  'cmd-alt-)': 'editor:unfold-all'
