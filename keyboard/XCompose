@@ -23,12 +23,16 @@ include "%L"
 <Multi_key> <R> <X> : "℞"
 <Multi_key> <i> <n> <f> <o> : "ℹ"
 
+# Computer keys
 <Multi_key> <d> <i> <a> <m> <e> <t> <e> <r> : "⌀"
 <Multi_key> <r> <e> <t> <u> <r> <n> : "⏎"
 <Multi_key> <e> <j> <e> <c> <t> : "⏏"
 <Multi_key> <c> <o> <m> <m> <a> <n> <d> : "⌘"
 <Multi_key> <e> <r> <a> <s> <e> : "⌫"
 <Multi_key> <d> <e> <l> <e> <t> <e> : "⌦"
+<Multi_key> <u> <n> <d> <o> : "⎌"
+<Multi_key> <c> <o> <n> <t> <r> <o> <l> : "⎈"
+<Multi_key> <h> <e> <l> <m> : "⎈"
 
 # ##### Musical
 
@@ -42,18 +46,32 @@ include "%L"
 
 <Multi_key> <e> <a> <r> <t> <h> : "♁"
 
+<Multi_key> <a> <r> <i> <e> <s> : "♈"
+<Multi_key> <t> <a> <u> <r> <u> <d> : "♉"
+<Multi_key> <g> <e> <m> <i> <n> <i> : "♊"
+<Multi_key> <c> <a> <n> <c> <e> <r> : "♋"
+<Multi_key> <l> <e> <o> : "♌"
+<Multi_key> <v> <i> <r> <g> <o> : "♍"
+<Multi_key> <l> <i> <b> <r> <a> : "♎"
+<Multi_key> <s> <c> <o> <r> <p> <i> <u> <s> : "♏"
+<Multi_key> <s> <a> <g> <i> <t> <t> <a> <r> <i> <u> <s> : "♐"
+<Multi_key> <c> <a> <p> <r> <i> <c> <o> <r> <n> : "♑"
+<Multi_key> <a> <q> <u> <a> <r> <i> <u> <s> : "♒"
+<Multi_key> <p> <i> <s> <c> <e> <s> : "♓"
 
 # ☦☧☩☪☫☬
 <Multi_key> <s> <k> <u> <l> <l> : "☠"
 <Multi_key> <a> <n> <k> <h> : "☥"
 <Multi_key> <y> <i> <n> <y> <a> <n> <g> : "☯"
 <Multi_key> <p> <e> <a> <c> <e> : "☮"
+<Multi_key> <f> <l> <o> <w> <e> <r> : "⚘"
 <Multi_key> <c> <o> <m> <m> <u> <n> <i> <s> <m> : "☭"
 <Multi_key> <r> <a> <d> <i> <o> <a> <c> <t> <i> <v> <e> : "☢"
 <Multi_key> <l> <o> <r> <r> <a> <i> <n> <e> : "☨"
 <Multi_key> <c> <a> <d> <u> <c> <e> <u> <s> : "☤"
 <Multi_key> <d> <b> <e> <n> <d> : "☡"
 <Multi_key> <b> <i> <o> <h> <a> <z> <a> <r> <d> : "☣"
+<Multi_key> <s> <n> <o> <w> <m> <a> <n> : "☃"
 
 <Multi_key> <w> <a> <r> <n> <i> <n> <g> : "⚠" U26A0
 
@@ -67,13 +85,51 @@ include "%L"
 
 # ##### Emojis
 
-<Multi_key> <colon> <parenright> : "☺" U263a
+<Multi_key> <colon> <parenright> : "☺" U263A
 <Multi_key> <colon> <parenleft> : "☹" U2639
+<Multi_key> <colon> <b> : "😛"
+<Multi_key> <colon> <slash> : "😕"
+<Multi_key> <colon> <3> : "😗"
+<Multi_key> <colon> <D> : "😃"
+<Multi_key> <B> <parenright> : "😎"
+<Multi_key> <colon> <space> : "😶"
+<Multi_key> <greater> <colon> <parenleft> : "😠"
+<Multi_key> <greater> <colon> <bracketleft> : "😡"
+<Multi_key> <less> <colon> <parenleft> : "😞"
+<Multi_key> <less> <colon> <bracketleft> : "😟"
 
+<Multi_key> <k> <i> <s> <s> : "💋" 1F48B
+<Multi_key> <g> <r> <i> <n> : "😀" U1F600
+<Multi_key> <h> <a> <l> <o> : "😇" U1F607
+<Multi_key> <h> <o> <r> <n> <s> : "😈" U1F608
+<Multi_key> <f> <e> <a> <r> : "😨" U1F628
+<Multi_key> <z> <z> <z> : "😴" U1F634
+<Multi_key> <s> <c> <r> <e> <a> <m> : "󱘱" UF1631
+<Multi_key> <m> <e> <d> <i> <c> <a> <l> : "󱘷" UF1637
+<Multi_key> <d> <i> <z> <z> <y> : "😵" U1F635
+<Multi_key> <u> <n> <a> <m> <u> <s> <e> <d> : "😒"
+<Multi_key> <e> <x> <p> <r> <e> <s> <s> <i> <n> <l> <e> <s> <s> : "😑"
+<Multi_key> <s> <u> <n> <g> <l> <a> <s> <s> <e> <s> : "😎"
+<Multi_key> <c> <o> <n> <f> <o> <u> <n> <d> : "😖"
+<Multi_key> <k> <i> <s> <s> <i> <n> <g> : "😗"
+<Multi_key> <l> <o> <v> <e> <k> <i> <s> <s> : "😘"
+<Multi_key> <a> <s> <t> <o> <n> <i> <s> <h> <e> <d> : "😲"
+<Multi_key> <m> <o> <u> <t> <h> <l> <e> <s> <s> : "😶"
+
+# Hands
 <Multi_key> <O> <K> : "👌" U1F44C
 <Multi_key> <l> <i> <k> <e> : "👍" U1F44D
 <Multi_key> <d> <i> <s> <l> <i> <k> <e> : "👎" U1F44E
-<Multi_key> <k> <i> <s> <s> : "💋" U1F48B
+
+# Cat faces
+<Multi_key> <c> <a> <t> <f> <a> <c> <e> : "🐱"
+<Multi_key> <g> <r> <i> <n> <c> <a> <t> : "😸" U1F638
+<Multi_key> <l> <o> <v> <e> <c> <a> <t> : "😻"
+
+# Other animals
+<Multi_key> <m> <o> <n> <k> <e> <y> <f> <a> <c> <e> : "🐵"
+<Multi_key> <m> <o> <u> <s> <e> <f> <a> <c> <e> : "🐭"
+<Multi_key> <c> <o> <w> <f> <a> <c> <e> : "🐮"
 
 # ##### Math
 
