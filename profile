@@ -17,8 +17,8 @@ for d in "$HOME/bin" "$HOME/.bin" "$HOME/.cabal/bin" "$HOME/.gems/bin"; do
 done
 
 # Editor:
-export EDITOR=emacsclient
-export ALTERNATE_EDITOR=""
+EDITOR=emacsclient; export EDITOR
+ALTERNATE_EDITOR=""; export ALTERNATE_EDITOR
 
 # Make SWING not horrible:
 if [ "$DISPLAY" != "" ]; then
