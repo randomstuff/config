@@ -11,6 +11,8 @@
   'cmd-shift-b': 'core:select-left'
   'cmd-shift-f': 'core:select-right'
   'cmd-shift-up': 'core:move-to-top'
+  'cmd-down': 'symbols-view:go-to-declaration'
+  'cmd-up': 'symbols-view:return-from-declaration'
 'atom-text-editor':
   'cmd-a': 'editor:move-to-first-character-of-line'
   'cmd-e': 'editor:move-to-end-of-screen-line'
