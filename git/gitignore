@@ -11,6 +11,14 @@ Thumbs.db
 # Native compilation:
 *.o
 a.out
+*.a
 
 # Python:
 *.pyc
+
+# JVM
+*.class
+
+# Atom
+.linter-clang-includes
+.linter-clang-flags
