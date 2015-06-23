@@ -25,3 +25,6 @@ a.out
 
 # Other editor stuff
 .clang_complete
+
+# Stuff that could be commited but sometimes won't:
+.editorconfig
