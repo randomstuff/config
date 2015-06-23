@@ -22,3 +22,6 @@ a.out
 # Atom
 .linter-clang-includes
 .linter-clang-flags
+
+# Other editor stuff
+.clang_complete
