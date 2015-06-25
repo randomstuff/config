@@ -3,6 +3,10 @@
 # Backup files:
 *~
 
+# Tags
+tags
+TAGS
+
 # Thumbnails
 Thumbs.db
 .Trashes
