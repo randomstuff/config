@@ -4,6 +4,9 @@
 *~
 \#*
 
+# Vim:
+.swp
+
 # Tags
 tags
 TAGS
@@ -17,6 +20,11 @@ Thumbs.db
 *.o
 a.out
 *.a
+*.so
+*.dylib
+*.obj
+*.lib
+*.dll
 
 # Python:
 *.pyc
