@@ -2,6 +2,7 @@
 
 # Backup files:
 *~
+\#*
 
 # Tags
 tags
@@ -28,8 +29,9 @@ a.out
 .linter-clang-flags
 
 # Other editor stuff
-.clang_complete
 compile_commands.json
+compile_commands.yaml
+.clang_complete
 
 # Stuff that could be commited but sometimes won't:
 .editorconfig
