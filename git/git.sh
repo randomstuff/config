@@ -44,11 +44,11 @@ git config --global credential.helper cache
 # ### Alias
 
 # log
-git config --global alias.graph    "log --graph --oneline --format=format:'%C(auto)%h %d %s %Cblue(%cn)'"
-git config --global alias.g        "log --graph --oneline --format=format:'%C(auto)%h %d %s %Cblue(%cn)'"
-git config --global alias.oneline  "log --oneline --format=format:'%C(auto)%h %d %s %Cblue(%cn)'"
-git config --global alias.graphall "log --graph --oneline --all --format=format:'%C(auto)%h %d %s %Cblue(%cn)'"
-git config --global alias.ga       "log --graph --oneline --all --format=format:'%C(auto)%h %d %s %Cblue(%cn)'"
+git config --global alias.graph    "log --graph --oneline --format=format:'%C(auto)%h %d %s %Cblue(%aN)'"
+git config --global alias.g        "log --graph --oneline --format=format:'%C(auto)%h %d %s %Cblue(%aN)'"
+git config --global alias.oneline  "log --oneline --format=format:'%C(auto)%h %d %s %Cblue(%aN)'"
+git config --global alias.graphall "log --graph --oneline --all --format=format:'%C(auto)%h %d %s %Cblue(%aN)'"
+git config --global alias.ga       "log --graph --oneline --all --format=format:'%C(auto)%h %d %s %Cblue(%aN)'"
 git config --global alias.new      'log ..@{upstream}'
 git config --global alias.pending  'log @{upstream}..'
 git config --global alias.pickaxe  'log -S'
