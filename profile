@@ -10,7 +10,7 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 # Path
-for d in "$HOME/bin" "$HOME/.bin" "$HOME/.cabal/bin" "$HOME/.gems/bin"; do
+for d in "$HOME/.local/bin" "$HOME/.cabal/bin" "$HOME/.bin" "$HOME/bin"; do
     if [ -d "$d" ] ; then
         PATH="$d:${PATH}"
     fi
