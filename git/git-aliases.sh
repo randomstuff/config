@@ -15,6 +15,7 @@ git config --global alias.staged "diff --staged"
 
 # log
 git config --global alias.graph    "log --graph --oneline --format=format:'%C(auto)%h %d %s %Cblue(%aN)'"
+git config --global alias.graphall "log --graph --oneline --all --format=format:'%C(auto)%h %d %s %Cblue(%aN)'"
 git config --global alias.oneline  "log --oneline --format=format:'%C(auto)%h %d %s %Cblue(%aN)'"
 
 # merge
