@@ -25,3 +25,5 @@ if [ "$DISPLAY" != "" ]; then
   export _JAVA_OPTIONS
   _JAVA_OPTIONS="-Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.systemlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.aatext=true -Dawt.useSystemAAFontSettings=on"
 fi
+
+export PIP_REQUIRE_VIRTUALENV=true
