@@ -25,17 +25,22 @@ git config --global user.name "$name"
 git config --global user.email "$email"
 git config --global core.editor "$editor"
 
-# CLI UI
+# CLI UI cosmetics
 
 git config --global color.ui auto
 git config --global color.diff.new blue # Same as colordiff
 git config --global log.decorate short
+git config --global log.date iso
+# git config --global core.pager delta
+
+git config --global diff.algorithm histogram
 
 # Behaviour
 
 git config --global merge.defaultToUpstream true
 git config --global push.default upstream
 git config --global credential.helper cache
+git config --global init.defaultBranch main
 
 # Git Ignore
 
